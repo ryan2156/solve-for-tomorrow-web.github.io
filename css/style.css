@@ -7,8 +7,9 @@ p{
 }
 img {
     max-width: 100%;
+    height: auto;
 }
-#banner{
+#banner .container-fluid .row{
     background-image: linear-gradient(to bottom, rgba(217,167,199,0.6), 
     rgba(255,252,220,0.6)),url(../pic/banner.jpg);
     background-repeat: no-repeat;
@@ -17,25 +18,18 @@ img {
     background-size: cover;
     min-height: 80vh;
 }
-#banner .container{
-    position:relative;
-    top: 50%;
-    transform: translate(0, -50%);
-	opacity: 1;
+#banner .quote{
+    padding-left: 15%;
 }
 #banner .quote h1{
-    width: 50%;
-    margin: 0 auto;
     font-size: 5rem;
-    color: rgb(82, 80, 80);
+    color: rgb(56 56 56);
     padding-left: 20px;
     border-left: 10px solid orange;
 }
 #banner .quote p{
-    width: 50%;
-    margin: 0 auto;
     font-size: 1.2rem;
-    color: rgb(95, 94, 94);
+    color: rgb(72 71 71);
     padding-left: 20px;
   }
 section:not(:first-child){
@@ -57,9 +51,43 @@ h2{
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.44);
    
 }
+#define-ques .inner{
+    text-align: center;
+}
 #define-ques .down{
     border-top: 2px solid rgba(0, 0, 0, 0.15);
     padding-right: 20px;
     padding-top: 1rem;
     font-size: 1.5rem;  
+}
+#problem-a-measure h2{
+    margin-top: 1rem;
+    margin-bottom: 4.2rem;
+    text-align: center;
+}
+#problem-a-measure h3{
+    font-size: 4.05rem;
+}
+#problem-a-measure li{
+    font-size: 2.3rem;
+}
+#problem-a-measure .hmw{
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+}
+
+#problem-a-measure .card-header{
+    background-color: rgb(245 118 0 / 83%);
+    color: white;
+    font-weight: 500;
+}
+#problem-a-measure .card h4{
+    
+}
+#problem-a-measure .card li{
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+#problem-a-measure .card span{
+    color: red;
 }
