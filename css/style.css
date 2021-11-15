@@ -10,6 +10,7 @@ img {
     max-width: 100%;
     height: auto;
 }
+ 
 #banner .container-fluid .row{
     background-image: linear-gradient(to bottom, rgba(217,167,199,0.6), 
     rgba(255,252,220,0.6)),url(../pic/banner.jpg);
@@ -18,6 +19,9 @@ img {
     background-position: center;
     background-size: cover;
     min-height: 80vh;
+}
+.center{
+    text-align: center;
 }
 #banner .quote{
     padding-left: 15%;
@@ -112,7 +116,4 @@ h2{
 #intro-product p{
     font-size: 1.5rem;
     font-weight: 600;
-}
-#intro-product img{
-    width: 70%;
 }
