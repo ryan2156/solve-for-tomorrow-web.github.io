@@ -10,6 +10,9 @@ img {
 .mt-4rem{
     margin-top: 4rem;
 }
+nav{
+    font-size: 1.5rem;
+}
 #banner .container-fluid .row{
     background-image: linear-gradient(to bottom, rgba(217,167,199,0.6), 
     rgba(255,252,220,0.6)),url(../pic/banner.jpg);
@@ -112,4 +115,16 @@ h2{
 #intro-product p{
     font-size: 1.5rem;
     font-weight: 600;
+}
+#intro-product a{
+    font-size: 1.5rem;
+    border-radius: 20px;
+}
+
+/*底下是分頁intro-product.html*/
+
+#process p {
+    border-radius: 10px;
+    color: white;
+    padding: 15px;
 }
