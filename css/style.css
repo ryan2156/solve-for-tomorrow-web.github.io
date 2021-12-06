@@ -13,9 +13,6 @@ img {
 nav{
     font-size: 1.5rem;
 }
-footer img{
-    width: 12%;
-}
 #banner .container-fluid .row{
     background-image: linear-gradient(to bottom, rgba(217,167,199,0.6), 
     rgba(255,252,220,0.6)),url(../pic/banner.jpg);
@@ -115,6 +112,12 @@ h2{
     padding: 15px;
     margin-bottom: 1.8rem;
 }
+#intro-product .black{
+    
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 1.8rem;
+}
 #intro-product p{
     font-size: 1.5rem;
     font-weight: 600;
@@ -123,11 +126,27 @@ h2{
     font-size: 1.5rem;
     border-radius: 20px;
 }
+#intro-product #link{
+    margin-left: 1rem;
+    font-size: smaller;
+}
 
+footer .container{
+    padding: 1.2rem 0;
+}
+footer .article{
+    padding: 0;
+}
+footer .fs-1{
+    letter-spacing: 10px;
+    text-align: center;
+}
+footer span{
+    font-family: 'rage-italic-regular', sans-serif;
+}
 /*底下是分頁intro-product.html*/
 
 #process p {
     border-radius: 10px;
-    color: white;
     padding: 15px;
 }
