@@ -13,6 +13,9 @@ img {
 nav{
     font-size: 1.5rem;
 }
+footer img{
+    width: 12%;
+}
 #banner .container-fluid .row{
     background-image: linear-gradient(to bottom, rgba(217,167,199,0.6), 
     rgba(255,252,220,0.6)),url(../pic/banner.jpg);
