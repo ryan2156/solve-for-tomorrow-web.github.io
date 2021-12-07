@@ -167,3 +167,12 @@ footer span{
 #dried .col-8{
     margin-bottom: 1.5em;
 }
+
+/*about-us*/
+
+#partner .img-w{
+    width: 18rem;
+}
+#partner p{
+    font-size: 1rem;
+}
