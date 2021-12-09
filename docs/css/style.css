@@ -10,15 +10,16 @@ img {
 .mt-4rem{
     margin-top: 4rem;
 }
-.bg-warning{
-    background-color: rgb(255, 216, 44);
-}
+
 nav{
     font-size: 1.5rem;
 }
+nav .bg{
+    background:rgb(255, 230, 118);
+}
 #banner .container-fluid .row{
-    background-image: linear-gradient(to bottom, rgba(217,167,199,0.6), 
-    rgba(255,252,220,0.6)),url(../pic/banner.jpg);
+    background-image: linear-gradient(to bottom, rgba(219, 195, 211, 0.8), 
+    rgba(255,249,188,0.6)),url(../pic/banner.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -98,40 +99,43 @@ h2{
 #problem-a-measure .card span{
     color: red;
 }
-#intro-product h2{
+#link-intro-product h2{
     margin-bottom: 2rem;
 }
-#intro-product h3{
+#link-intro-product h3{
     font-size: 2rem;
     font-weight: 500;
 }
-#intro-product ul{
+#link-intro-product ul{
     list-style: none;
     font-size: 1.5rem;
 }
-#intro-product .white{
+#link-intro-product .white{
     color: white;
     border-radius: 10px;
     padding: 15px;
     margin-bottom: 1.8rem;
 }
-#intro-product .black{
+#link-intro-product .black{
     
     border-radius: 10px;
     padding: 15px;
     margin-bottom: 1.8rem;
 }
-#intro-product p{
+#link-intro-product p{
     font-size: 1.5rem;
     font-weight: 600;
 }
-#intro-product a{
+#link-intro-product a{
     font-size: 1.5rem;
     border-radius: 20px;
 }
-#intro-product #link{
+#link-intro-product #link{
     margin-left: 1rem;
     font-size: smaller;
+}
+#link-intro-product .opa{
+    opacity: 0.84;
 }
 
 footer .container{
@@ -147,7 +151,7 @@ footer .fs-1{
 footer span{
     font-family: 'rage-italic-regular', sans-serif;
 }
-/*底下是分頁intro-product.html*/
+/*底下是分頁link-intro-product.html*/
 
 #process p {
     border-radius: 10px;
